@@ -1,0 +1,96 @@
+body {
+    font-family: "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    color: #111;
+    background-color: #fff;
+}
+
+/* NAVBAR */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    border-bottom: 1px solid #ddd;
+}
+
+nav h2 {
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+nav a {
+    margin-left: 25px;
+    text-decoration: none;
+    color: #111;
+    font-size: 14px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* HERO SECTION */
+.hero {
+    text-align: center;
+    padding: 120px 20px 80px;
+}
+
+.hero h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #444;
+}
+
+/* BUTTON */
+.button {
+    display: inline-block;
+    margin-top: 30px;
+    padding: 12px 28px;
+    background: #111;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #111;
+    transition: 0.2s;
+}
+
+.button:hover {
+    background: #fff;
+    color: #111;
+}
+
+/* INFO SECTION */
+.info {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    padding: 60px 20px;
+    border-top: 1px solid #eee;
+}
+
+.info div {
+    text-align: center;
+}
+
+.info h3 {
+    font-size: 14px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #666;
+}
+
+.info p {
+    margin-top: 8px;
+    font-size: 18px;
+}
+
+/* GENERAL SECTIONS */
+section {
+    max-width: 1000px;
+    margin: auto;
+}
