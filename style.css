@@ -1,50 +1,45 @@
 body {
-    font-family: "Helvetica Neue", Arial, sans-serif;
+    font-family: 'Inter', sans-serif;
     margin: 0;
-    color: #111;
-    background-color: #fff;
+    color: #E6DFF0;
+    background: linear-gradient(135deg, #5A0F6E, #7A1E8A);
 }
 
-/* NAVBAR */
+/* NAV */
 nav {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     padding: 20px 40px;
-    border-bottom: 1px solid #ddd;
-}
-
-nav h2 {
-    font-weight: 600;
-    letter-spacing: 0.5px;
+    color: white;
 }
 
 nav a {
     margin-left: 25px;
     text-decoration: none;
-    color: #111;
+    color: #E6DFF0;
     font-size: 14px;
 }
 
 nav a:hover {
-    text-decoration: underline;
+    opacity: 0.7;
 }
 
-/* HERO SECTION */
+/* HERO */
 .hero {
-    text-align: center;
-    padding: 120px 20px 80px;
+    text-align: left;
+    padding: 100px 60px;
+    max-width: 900px;
 }
 
 .hero h1 {
-    font-size: 42px;
+    font-size: 56px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
 .hero p {
     font-size: 18px;
-    color: #444;
+    color: #d4c6e0;
 }
 
 /* BUTTON */
@@ -52,45 +47,61 @@ nav a:hover {
     display: inline-block;
     margin-top: 30px;
     padding: 12px 28px;
-    background: #111;
-    color: #fff;
+    border-radius: 30px;
+    background: white;
+    color: #5A0F6E;
     text-decoration: none;
-    border: 1px solid #111;
-    transition: 0.2s;
+    font-weight: 500;
+    transition: 0.3s;
 }
 
 .button:hover {
-    background: #fff;
-    color: #111;
+    background: transparent;
+    color: white;
+    border: 1px solid white;
 }
 
 /* INFO SECTION */
 .info {
     display: flex;
-    justify-content: center;
-    gap: 80px;
-    padding: 60px 20px;
-    border-top: 1px solid #eee;
-}
-
-.info div {
-    text-align: center;
+    gap: 60px;
+    padding: 40px 60px;
 }
 
 .info h3 {
-    font-size: 14px;
-    letter-spacing: 1px;
+    font-size: 12px;
+    letter-spacing: 2px;
     text-transform: uppercase;
-    color: #666;
+    opacity: 0.7;
 }
 
 .info p {
-    margin-top: 8px;
-    font-size: 18px;
+    font-size: 20px;
+    margin-top: 5px;
 }
 
-/* GENERAL SECTIONS */
-section {
-    max-width: 1000px;
-    margin: auto;
+/* DESCRIPTION */
+.description {
+    padding: 40px 60px;
+    max-width: 800px;
+}
+
+.description h2 {
+    font-size: 24px;
+}
+
+.description p {
+    color: #d4c6e0;
+    line-height: 1.6;
+}
+
+/* SCHEDULE */
+.schedule {
+    padding: 40px 60px;
+    max-width: 800px;
+}
+
+.schedule li {
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(255,255,255,0.2);
 }
